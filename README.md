@@ -16,15 +16,15 @@
 -----
 
 ## 📋 Table of Contents
-- [Objective]
-- [Lab Topology & Architecture](#-lab-topology--architecture)
-- [Hardware & Software Requirements](#-hardware--software-requirements)
-- [Lab Setup & Configurations](#-lab-setup--configurations)
-  - [Step 1: Hypervisor Installation](#step-1-hypervisor-installation)
-  - [Step 2: Kali Linux VM Configuration](#step-2-kali-linux-vm-configuration)
-  - [Step 3: Target VM Setup (Metasploitable / Windows)](#step-3-target-vm-setup-metasploitable--windows)
-- [Verification & Testing](#-verification--testing)
-- [Lessons Learned & Skills Demonstrated](#-lessons-learned--skills-demonstrated)
+- Objective
+- Lab Architecture
+- Hardware & Software Requirements
+- Lab Setup & Configurations
+  - Step 1: Hypervisor Installation
+  - Step 2: Kali Linux VM Configuration
+  - Step 3: Target VM Setup Metasploitable / Windows
+- Verification & Testing
+- Lessons Learned & Skills Demonstrated
 
 ------
 
