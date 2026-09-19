@@ -1,7 +1,6 @@
-Markdown
-# 🔐 Cybersecurity Lab Environment Setup
-
-### A hands-on cybersecurity lab environment built using VirtualBox/VMware, Kali Linux, to practice penetration testing, network monitoring, and security analysis practice.
+  # 🔐 Cybersecurity Lab Setup
+ 
+ <p>A hands-on cybersecurity lab environment built solely to practice penetration testing, network monitoring, and security analysis practice</p>
 
 ![Skill](https://img.shields.io/badge/Skill-Cybersecurity-444444?style=flat&labelColor=a10000)
 ![Ver](https://img.shields.io/badge/Ver-Virtualbox%20v7.2-0078d7?style=flat&labelColor=000000)
@@ -12,20 +11,22 @@ Markdown
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-Lab-444444?style=flat&logo=kalilinux&logoColor=white&labelColor=a10000)
 ![NetworkWalks](https://img.shields.io/badge/NetworkWalks-Reference-444444?style=flat&labelColor=a10000)
 ![Ethical Hacking](https://img.shields.io/badge/Ethical%20Hacking-Practice-e65c00?style=flat&logo=kalilinux&logoColor=white&labelColor=000000)
-![Author](https://img.shields.io/badge/Ayorinde%20Michael%20-Author-a10000?style=flat) 
+![Author](https://img.shields.io/badge/Ayorinde%20Michael-Author-a10000?style=flat&labelColor=a10000)
 
-
+-----
 
 ## 📋 Table of Contents
-- Objective
-- Lab Architecture 
-- Hardware & Software Requirements -- hardware--software-requirements
-- Lab Setup & Configurations](#-lab-setup--configurations
-  - Step 1: Hypervisor Installation --- Step-1-hypervisor-installation
-  - Step 2: Kali Linux VM Configuration --- Step-2-kali-linux-vm-configuration
-  - Step 3: Target VM Setup Metasploitable / Windows -- Step-3-target-vm-setup-metasploitable--windows
-- Verification & Testing
-- Lessons Learned & Skills Demonstrated](#-lessons-learned--skills-demonstrated)
+- [Objective]
+- [Lab Topology & Architecture](#-lab-topology--architecture)
+- [Hardware & Software Requirements](#-hardware--software-requirements)
+- [Lab Setup & Configurations](#-lab-setup--configurations)
+  - [Step 1: Hypervisor Installation](#step-1-hypervisor-installation)
+  - [Step 2: Kali Linux VM Configuration](#step-2-kali-linux-vm-configuration)
+  - [Step 3: Target VM Setup (Metasploitable / Windows)](#step-3-target-vm-setup-metasploitable--windows)
+- [Verification & Testing](#-verification--testing)
+- [Lessons Learned & Skills Demonstrated](#-lessons-learned--skills-demonstrated)
+
+------
 
 
 
@@ -39,6 +40,7 @@ The primary goal of this lab is to create an isolated, secure environment to:
     
     *Conduct vulnerability assessments against target virtual machines.
     
+-----
 
 ## 📐 Lab Architecture
          ├──► Hypervisor (VirtualBox / VMware Workstation)
@@ -47,6 +49,7 @@ The primary goal of this lab is to create an isolated, secure environment to:
                  │         
                         ├──► [ Attacker ] Kali Linux 
 
+-----
 
 🛠️ Hardware & Software Requirements
 Hardware Specs:
@@ -65,6 +68,7 @@ Software Used:
     
     *Kali Linux 2026.2 (64-bit ISO or Virtual Machine Image)
 
+-----
 
 🚀 Lab Setup & Configurations
 Step 1: Hypervisor Installation
@@ -96,18 +100,22 @@ Step 3: Target VM Setup
     
     *Verified local IP address allocation using ifconfig or ip a.
 
+-----
+
 🔍 Verification & Testing
 
     *Network Connectivity Test: Ran a ping check from Kali Linux to ensure communication with the target machine without accessing the external       internet
     
     *Network Discovery: Scanned the local virtual network using nmap to discover active hosts and open ports
 
+-----
+
 💡 Lessons Learned & Skills Demonstrated
 
-    **Networking**: Understanding IP assignment, subnets, and host-only network isolation.
+    Networking: Understanding IP assignment, subnets, and host-only network isolation.
     
-    **System Administration**: Allocating system resources (RAM, CPU, storage) across virtual environments.
+    System Administration: Allocating system resources (RAM, CPU, storage) across virtual environments.
     
-    **Security Practices**: Ensuring vulnerable virtual machines remain strictly isolated from production networks.
+    Security Practices: Ensuring vulnerable virtual machines remain strictly isolated from production networks.
 
     
